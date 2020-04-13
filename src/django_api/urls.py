@@ -20,4 +20,5 @@ from .views import PerformanceMetricsView
 
 urlpatterns = [
     path('metrics/', PerformanceMetricsView.as_view()),
+    path('admin/', admin.site.urls)
 ]
