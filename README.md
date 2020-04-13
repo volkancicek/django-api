@@ -1,7 +1,8 @@
 # django-api
 django restful api
 
-#Install & Run
+# Install & Run
+
 Run the following commands at the directory `src/` :
 
 install packages 
