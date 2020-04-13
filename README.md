@@ -1,16 +1,23 @@
 # django-api
 django restful api
 
-# Run
- Run the following commands at the directory `src/` :
+#Install & Run
+Run the following commands at the directory `src/` :
+
+install packages 
+
+`pip install -r requirements.txt`
 
 create DB table
+
 `python manage.py migrate --run-syncdb`
 
 init DB records
+
 `python init_data.py`
 
 run app
+
 `python manage.py runserver 8080`
 
 # Endpoints
